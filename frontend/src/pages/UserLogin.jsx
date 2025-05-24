@@ -37,7 +37,7 @@ const UserLogin = () => {
           className='bg-[#eeeeee] mb-7 rounded px-4 py-2 border w-full text-lg placeholder:text-base'
           type="password" placeholder='password' />
         <button className='bg-[#111] text-white font-semibold mb-3 rounded px-4 py-2 w-full text-lg placeholder:text-base'>Login</button>
-        <p className='text-center'>New here?<Link to='/signup' className='text-blue-600'>Create new Account</Link></p>
+        <p className='text-center'>New here? <Link to='/signup' className='text-blue-600'>Create new Account</Link></p>
       </form>
       </div>
       <div>
