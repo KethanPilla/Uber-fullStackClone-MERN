@@ -12,9 +12,15 @@ const UserSignup = () => {
   const submitHandler = (e)=>{
     e.preventDefault();
     setUserData({
-      username
+      username:{
       firstName: firstName,
       lastName: lastName,
+      },
+      email: email,
+      password: password
+    })
+
+    console.log(userData);
     setEmail('')
     setPassword('')
     setFirstName('')
@@ -49,9 +55,8 @@ const UserSignup = () => {
       </form>
       </div>
       <div>
-        <p className='text-[8px] leading-tight'>By proceeding, you consent to get emails, including by automated means
-          , from Uber and our affiliates to the email address you provided.
-          You may unsubscribe from these emails at any time.
+        <p className='text-[8px] leading-tight'>This site is protected by reCAPTCHA and the Google <span className='text-blue-600'>Privacy Policy</span> and <span className='text-blue-600'>Terms of Service</span> apply. By clicking "Sign Up", you agree to our <span className='text-blue-600'>Terms of Service</span> and <span className='text-blue-600'>Privacy Policy</span>.
+        <br />
         </p>
       </div>
     </div>
