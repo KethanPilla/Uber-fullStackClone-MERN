@@ -56,7 +56,7 @@ const Captainsignup = () => {
       </div>
       <div>
         <p className='text-[8px] leading-tight'>This site is protected by reCAPTCHA and the Google <span className='text-blue-600'>Privacy Policy</span> and <span className='text-blue-600'>Terms of Service</span> apply. By clicking "Sign Up", you agree to our <span className='text-blue-600'>Terms of Service</span> and <span className='text-blue-600'>Privacy Policy</span>.
-        <br />
+        <br/>
         </p>
       </div>
     </div>
