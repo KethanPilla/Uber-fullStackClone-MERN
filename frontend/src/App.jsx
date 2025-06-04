@@ -5,13 +5,11 @@ import UserLogin from './pages/UserLogin'
 import UserSignup from './pages/UserSignup'
 import Captainlogin from './pages/Captainlogin'
 import CaptainSignup from './pages/Captainsignup'
-import {  UserDataContext } from './context/UserContext'
+import { UserDataContext } from './context/UserContext'
 
 
 const App = () => {
 
-  const ans = useContext(UserDataContext)
-  console.log(ans)
   return (
     <div>
       <Routes>
