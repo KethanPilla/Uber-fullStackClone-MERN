@@ -1,2 +1,2 @@
 # Uber-fullStackClone-MERN
-This is a full stack MERN stack based project.
+This is a MERN stack based project.
