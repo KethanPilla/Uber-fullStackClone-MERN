@@ -1,4 +1,4 @@
-# Uber Clone MERN Application
+# Uber Clone MERN Full stack Application
 
 **Uber Clone MERN Application** is a full-stack web application that mimics core features of the Uber ride-hailing platform, built using the **MERN** stack (MongoDB, Express.js, React, Node.js). It allows users (passengers) to request rides and drivers (captains) to accept and complete those rides, with real-time updates and location tracking. This project is currently intended for local development and testing (no live deployment), demonstrating how an Uber-like service can be implemented with modern web technologies.
 
